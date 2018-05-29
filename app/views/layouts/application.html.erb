@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <header class="navbar  navbar-inverse">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      </div>
+    </header>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+  </head>
+
+  <body>
+    <%= yield %>
+
+  </body>
+</html>
